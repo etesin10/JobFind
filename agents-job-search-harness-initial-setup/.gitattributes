@@ -1,0 +1,9 @@
+# Shell scripts and macOS launchers MUST keep Unix line endings (CRLF breaks bash on macOS).
+*.sh       text eol=lf
+*.command  text eol=lf
+# Windows batch files keep CRLF.
+*.bat      text eol=crlf
+*.py       text eol=lf
+*.md       text
+*.spec     text eol=lf
+*.yml      text eol=lf

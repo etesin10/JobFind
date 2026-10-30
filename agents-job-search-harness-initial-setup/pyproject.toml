@@ -1,0 +1,11 @@
+[project]
+name = "job-search-harness"
+version = "0.6.0"
+description = "Portable, local-first Job Search Harness (CANADA_VISA / MEXICO_REMOTE)"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+filterwarnings = ["ignore::DeprecationWarning"]
